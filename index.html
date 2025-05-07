@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <div><strong>My Portfolio</strong></div>
+    <div>
+      <a href="#Home">Home</a>
+      <a href="#About">About</a>
+      <a href="#Skills">Skills</a>
+      <a href="#Education">Educations</a>
+      <a href="#Projects">Projects</a>
+      <a href="#Contact">Contact</a>
+    </div>
+  </nav>
+
+  <header id="home">
+    <img src="IMG-20230704-WA0002.jpg" class="Photo">
+    
+    <h1><u><span class="name-box">Eshita Makar</span></u></h1>
+    
+    <p>Hey!! I’m a Web Developer ,passionate about creating interactive websites.</p>
+  
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I'm a student right now of computer science and engineering and currently pursuing my bachelor of technology degree from a reputed college Academy of Technology affilate with the renowned university that is Maulana Abul Kalam Azad university of Technology (MAKAUT). I have a strong interest in technology, especially in the areas of web development , programming and software design.</p>
+    <p> As a curious and motivated learner , i enjoy exploring how things work behind the scene -- whether it's website , writing code, or solving technical challenges. I'm continuously working to improve my skills in languages like HTML,CSS Javascript and python and some others and I'm excited to grow in the field of software and web development.</p>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    
+    <div class="skills-list">
+      <div class="skill">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML">
+          <span>HTML</span>
+      </div>
+      <div class="skill">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS">
+          <span>CSS</span>
+      </div>
+      <div class="skill">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript">
+          <span>JavaScript</span>
+      </div>
+      <div class="skill">
+          <img src="images.jpeg" alt="Python">
+          <span>Python</span>
+      </div>
+      <div class="skill">
+          <img src="unnamed.png" alt="Core Java">
+          <span>Core Java</span>
+      </div>
+      
+    
+  </div>
+  
+  </section>
+
+  <section id="educations">
+    <h2>Educations</h2>
+    <div class="educations">
+        <div class="education">
+            <h3>Academy of Technology</h3>
+            <p>Bachelor of Computer Science, 2022-2026.</p>
+        </div>
+        <div class="education">
+            <h3>East West Model School</h3>
+            <p>ICSE(10th):Passed with 89% (2020)</p>
+            <p>ISC(12th): Passed with 82.7% (2022)</p>
+        </div>
+    </div>
+  </section>
+
+
+  <section id="projects">
+    <h2>My Projects</h2>
+    <div class="projects">
+      <div class="project">
+        <h3>Portfolio Website</h3>
+        <p>Here in this website I describe my self and my projects and skills again be using the basic platform.</p>
+      </div>
+      <div class="project">
+        <h3>Movie Streaming Website </h3>
+        <p>A website of movie streaming , and here in showcase some short of knowledge and build a website of my own type using the HTML,CSS,and javascript and got a more over a good result.</p>
+      </div>
+      <div class="project">
+        <h3>Freetime University Webpage</h3>
+        <p>A simple and basic webpage of a university to test my own knowledge regarding this platform and the unversity in full on my imagination.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="fade-in">
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <p id="formMessage"></p>
+  </section>
+
+  
+  <script src="script.js"></script>
+
+
+  <section id="social">
+    <h2>Social Sites</h2>
+    <img src="email.webp" alt="eshitamakar@gmail.com" >
+    <img src="LinkedIn-Logo.wine.png" alt="">
+    <img src="art-illustration_929495-41.avif" alt="">
+  </section>
+  </header>
+  <footer>
+    <p>&copy; 2025 Eshita Makar. All rights reserved.</p>
+  </footer>
+
+  <script>
+    // Optional JS for future animations or interactions
+    
+    document.getElementById('menuToggle').addEventListener('click', () => {
+      document.getElementById('navLinks').classList.toggle('active');
+    });
+  </script>
+
+  
+ 
+
+
+</body>
+</html>
